@@ -1,0 +1,14 @@
+name: RaftPlugin
+version: 1.0.0.0
+description: This plugin is like the game "Raft"
+api-version: 1.16
+author: danizml
+authors: [danizml, TonimatasMC]
+website: curseforge.com
+prefix: RaftPlugin
+
+main: com.danizml.RaftPlugin.RaftPlugin
+
+commands:
+  raftworld:
+    description: Create world.
