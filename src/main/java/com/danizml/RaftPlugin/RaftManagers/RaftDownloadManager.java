@@ -7,10 +7,6 @@ import java.net.URL;
 import java.nio.channels.Channels;
 import java.nio.channels.ReadableByteChannel;
 
-/*
-Created by: TonimatasMC
- */
-
 public class RaftDownloadManager {
     public static void downloadUsingStream(String urlStr, String file) throws IOException{
         URL url = new URL(urlStr);
